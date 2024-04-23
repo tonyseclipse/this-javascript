@@ -1,4 +1,6 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-console.log(typeof typeof 1);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
 const currentDate = () => new Date().toLocaleDateString('en-US');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log( "A" - "B" + "2");
+console.log(+"1" +  "1" + "2");
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
