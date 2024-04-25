@@ -1,1 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
+const channelName = getChannelName(channel);
+console.log("0 || 1 = "+(0 || 1));
