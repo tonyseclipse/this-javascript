@@ -1,4 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const goToTop = () => window.scrollTo(0, 0);
+console.log(typeof typeof 1);
+console.log( "A" - "B" + 2);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
