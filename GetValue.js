@@ -1,1 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+var DELIM_SIZE = 4;
+const flattenedArray = arr => [].concat(...arr);
