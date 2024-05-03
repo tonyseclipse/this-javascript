@@ -1,2 +1,2 @@
-var DELIM_SIZE = 4;
-const flattenedArray = arr => [].concat(...arr);
+const fullName = name || 'buddy';
+const updated = numbers.filter(element => element > 6);
