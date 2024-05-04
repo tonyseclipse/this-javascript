@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const updated = numbers.filter(element => element > 6);
+const merge = (a, b) => a.concat(b);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
