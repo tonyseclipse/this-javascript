@@ -1,3 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-var arr3 = "jones".split('');
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(false === '0');
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
