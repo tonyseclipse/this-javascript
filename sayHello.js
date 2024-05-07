@@ -1,2 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const allResults = await Promise.all(items.map(async (item) => {}));
+const lastElement = arr => arr[arr.length - 1];
