@@ -1,2 +1,2 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const removeDuplicates = (arr) => [...new Set(arr)];
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
