@@ -1,2 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const results = await Promise.all(resultingPromises);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
