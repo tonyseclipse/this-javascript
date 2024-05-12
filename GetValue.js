@@ -1,2 +1,2 @@
-const results = await Promise.all(resultingPromises);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const appName = getAppName(channel);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
