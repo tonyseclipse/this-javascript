@@ -1,2 +1,2 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const results = await Promise.all(resultingPromises);
+var arr2 = arr1.reverse();
