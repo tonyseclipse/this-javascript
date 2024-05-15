@@ -1,2 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const lastElement = arr => arr[arr.length - 1];
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const uniqueArr = (arr) => [...new Set(arr)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
