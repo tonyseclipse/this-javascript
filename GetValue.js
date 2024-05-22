@@ -1,3 +1,2 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const channelName = getChannelName(channel);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
