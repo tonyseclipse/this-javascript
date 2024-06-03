@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const merge = (a, b) => a.concat(b);
+const results = await Promise.all(resultingPromises);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
