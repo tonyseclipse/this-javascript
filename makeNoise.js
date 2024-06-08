@@ -1,3 +1,2 @@
-console.log(false == '0');
-const merge = (a, b) => a.concat(b);
-const fullName = name || 'buddy';
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
