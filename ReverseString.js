@@ -1,1 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
