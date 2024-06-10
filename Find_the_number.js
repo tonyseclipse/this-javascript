@@ -1,1 +1,1 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
