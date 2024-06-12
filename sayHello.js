@@ -1,3 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const appName = getAppName(channel);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+console.log(false == '0');
+console.log("0 && 1 = "+(0 && 1));
