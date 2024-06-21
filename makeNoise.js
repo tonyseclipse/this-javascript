@@ -1,2 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const channelName = getChannelName(channel);
+var c = new Counter(); c.add(); c.add(); c.add();
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
