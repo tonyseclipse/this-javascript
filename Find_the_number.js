@@ -1,3 +1,1 @@
-console.log("1 || 2 = "+(1 || 2));
-const getRandomBoolean = () => Math.random() >= 0.5;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
