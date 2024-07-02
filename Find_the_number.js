@@ -1,2 +1,2 @@
-console.log(1 +  +"2" + "2");
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log(typeof typeof 1);
