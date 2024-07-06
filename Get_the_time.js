@@ -1,2 +1,2 @@
-var arr1 = "john".split('');
-console.log(false == '0');
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
