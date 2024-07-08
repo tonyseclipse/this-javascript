@@ -1,1 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const toggleBool = () => (bool = !bool);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
