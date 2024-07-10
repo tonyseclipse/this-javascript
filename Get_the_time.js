@@ -1,3 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const merge = [...new Set(a.concat(b))];
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(false === '0');
