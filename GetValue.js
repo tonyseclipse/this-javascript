@@ -1,1 +1,2 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isWeekday = (date) => date.getDay() % 6 !== 0;
