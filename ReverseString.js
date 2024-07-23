@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log("0 && 1 = "+(0 && 1));
-console.log( "A" - "B" + 2);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const uniqueArr = (arr) => [...new Set(arr)];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
